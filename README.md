@@ -9,6 +9,12 @@ Critical components:
 * spring-boot-starter-data-redis 2.6.3 with spring-data-redis 2.6.1
 * lettuce-core 6.1.6
 
+### Helpful Commands
+
+* Use redis-cli on the docker container `docker exec -it <CONTAINER ID> sh`
+* Add to stream `XADD mystream * sensor-id 1234 temperature 14.0`
+* Create a group for the stream `XGROUP CREATE mystream mygroup $`
+
 # Issues
 
 My first attempt to configure a Spring Boot service that consumed a redis stream went poorly.
