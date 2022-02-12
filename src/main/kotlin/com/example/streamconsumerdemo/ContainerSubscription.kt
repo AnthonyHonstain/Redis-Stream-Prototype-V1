@@ -82,6 +82,8 @@ class ContainerSubscription(
 
     override fun destroy() {
         println("Destroy ContainerSubscription - sub: ${subscription?.isActive}")
+
+        // Timing how long it takes https://stackoverflow.com/questions/1770010/how-do-i-measure-time-elapsed-in-java
         val startTime = System.nanoTime()
         subscription?.cancel()
 
