@@ -1,5 +1,7 @@
 # Overview
 
+**UPDATE 2022-02-23 there are significant chunks of this that proved to be superfluous, look to these repositories for a better example: https://github.com/AnthonyHonstain/Redis-Stream-Prototype-V2 or https://bitbucket.org/honstain/redis-stream-prototype-v2** 
+
 PLEASE don't judge me too harshly, this repo is only shared as a tool in case other people want to learn from my mistakes. Its only probably useful if it helps someone resolve similar errors, it should not be used as model to build off of. 
 
 This Spring Boot service was created as a learning tool to help me better understand Spring Boot and the Redis streams (using the spring-data-redis package with Lettuce).
